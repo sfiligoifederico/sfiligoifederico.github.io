@@ -1,1 +1,45 @@
-# sfiligoifederico.github.io
+<head>
+    <title>Tutorial CSS</title>
+    <meta name="author" content="Martino Trevisan">
+    <link rel="stylesheet" href="esempio_1-css-style.css">
+</head>
+<body>
+
+
+    <h1> Titolo </h1>
+
+    <h1> Titolo 2 </h1>
+
+    <p id="indice"> Indice </p>
+
+    <table>
+        <tbody><tr>
+            <th> Company </th>
+            <th> Contact </th>
+            <th> Country </th>
+        </tr>
+        <tr>
+            <td> c1 </td>
+            <td> martino </td>
+            <td> italia </td>
+        </tr>
+        <tr>
+            <td> c1 </td>
+            <td> alberto </td>
+            <td> toscana </td>
+        </tr>
+
+    </tbody></table>
+
+
+    <h2 class="importante"> Sottotitolo Importante </h2>
+
+    <h2 class="nonimportante"> Sottotitolo Non Importante </h2>
+
+
+    <a href="#indice"> vai a indice </a>
+
+
+
+
+</body>
