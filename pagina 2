@@ -1,0 +1,22 @@
+<html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <title>Pagina 2</title>
+  <script type="text/javascript" id="cookiebanner"
+          src="https://cdn.jsdelivr.net/gh/dobarkod/cookie-banner@1.2.2/dist/cookiebanner.min.js"></script>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a> ·
+    <a href="pagina2.html">Pagina 2</a> ·
+    <a href="pagina3.html">Pagina 3</a>
+  </nav>
+
+  <h1>Pagina 2</h1>
+  <p>Contenuto minimale.</p>
+
+  <img src="images/local-2.jpg" alt="Immagine locale pagina 2">
+  <img src="https://picsum.photos/seed/p2/800/500" alt="Immagine remota pagina 2">
+</body>
+<html>
