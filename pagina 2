@@ -1,4 +1,4 @@
-<html>
+<!doctype html>
 <html lang="it">
 <head>
   <meta charset="utf-8">
@@ -19,4 +19,4 @@
   <img src="images/local-2.jpg" alt="Immagine locale pagina 2">
   <img src="https://picsum.photos/seed/p2/800/500" alt="Immagine remota pagina 2">
 </body>
-<html>
+</html>
