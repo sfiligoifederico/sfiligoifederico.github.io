@@ -1,47 +1,26 @@
-<html>
+<!doctype html>
+<html lang="it">
 <head>
-    <title>Tutorial CSS</title>
-    <meta name="author" content="Martino Trevisan">
-    <link rel="stylesheet" href="esempio_1-css-style.css">
+  <meta charset="utf-8">
+  <title>Home</title>
+  <!-- Script richiesto (cookie banner - Opzione 2) -->
+  <script type="text/javascript" id="cookiebanner"
+          src="https://cdn.jsdelivr.net/gh/dobarkod/cookie-banner@1.2.2/dist/cookiebanner.min.js"></script>
 </head>
 <body>
+  <nav>
+    <a href="index.html">Home</a> ·
+    <a href="pagina2.html">Pagina 2</a> ·
+    <a href="pagina3.html">Pagina 3</a>
+  </nav>
 
+  <h1>Home</h1>
+  <p>Pagina iniziale minimale per l’esame.</p>
 
-    <h1> Titolo </h1>
+  <!-- Immagine locale (URL relativo) -->
+  <img src="images/local-home.jpg" alt="Immagine locale home">
 
-    <h1> Titolo 2 </h1>
-
-    <p id="indice"> Indice </p>
-
-    <table>
-        <tbody><tr>
-            <th> Company </th>
-            <th> Contact </th>
-            <th> Country </th>
-        </tr>
-        <tr>
-            <td> c1 </td>
-            <td> martino </td>
-            <td> italia </td>
-        </tr>
-        <tr>
-            <td> c1 </td>
-            <td> alberto </td>
-            <td> toscana </td>
-        </tr>
-
-    </tbody></table>
-
-
-    <h2 class="importante"> Sottotitolo Importante </h2>
-
-    <h2 class="nonimportante"> Sottotitolo Non Importante </h2>
-
-
-    <a href="#indice"> vai a indice </a>
-
-
-
-
+  <!-- Immagine remota (URL assoluto, diversa) -->
+  <img src="https://picsum.photos/seed/home/800/500" alt="Immagine remota home">
 </body>
 </html>
