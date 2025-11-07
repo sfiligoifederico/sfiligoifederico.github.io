@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>Home</title>
-  <!-- Script richiesto (cookie banner - Opzione 2) -->
+
   <script type="text/javascript" id="cookiebanner"
           src="https://cdn.jsdelivr.net/gh/dobarkod/cookie-banner@1.2.2/dist/cookiebanner.min.js"></script>
 </head>
@@ -17,10 +17,10 @@
   <h1>Home</h1>
   <p>Pagina iniziale minimale per l’esame.</p>
 
-  <!-- Immagine locale (URL relativo) -->
+
   <img src="images/local-home.jpg" alt="Immagine locale home">
 
-  <!-- Immagine remota (URL assoluto, diversa) -->
+
   <img src="https://picsum.photos/seed/home/800/500" alt="Immagine remota home">
 </body>
 </html>
