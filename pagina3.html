@@ -14,32 +14,57 @@
   </nav>
 
   <h1>Storia della Pro Gorizia</h1>
-  <p>
-    La Pro Gorizia nasce ufficialmente nel <strong>1923</strong> e nel corso della sua storia ha disputato campionati
-    nazionali e regionali, vestendo i tradizionali colori <strong>bianco-azzurri</strong>. Giochi casalinghi
-    allo <em>Stadio Enzo Bearzot (Campagnuzza)</em> di Gorizia. In passato ha preso parte anche a categorie nazionali,
-    mentre oggi milita in Eccellenza FVG.
-  </p>
 
-  <!-- Foto locali (carica 2 immagini diverse nella cartella /images) -->
-  <figure>
-    <img src="images/storia.jpg" alt="Foto storica della Pro Gorizia">
-    <figcaption>Scatto storico della società — immagine locale.</figcaption>
-  </figure>
+  <!-- Layout: foto a sinistra, testo a destra -->
+  <div style="display:flex; gap:20px; align-items:flex-start; flex-wrap:wrap;">
 
-  <figure>
-    <img src="images/storia2.jpg" alt="">
-    <figcaption></figcaption>
-  </figure>
+    <!-- Colonna FOTO (sinistra) -->
+    <div style="display:flex; flex-direction:column; gap:8px; min-width:200px;">
+      <figure style="margin:0;">
+        <img src="images/storia.jpg" alt="Foto storica della Pro Gorizia"
+             style="height:178px; width:auto; display:block;">
+        <figcaption style="font-size:12px; color:#555;">Scatto storico (locale).</figcaption>
+      </figure>
 
-  <!-- Foto remota aggiuntiva (URL assoluto, diversa dalle precedenti) -->
-  <figure>
-    <img src="https://progorizia.altervista.org/wp-content/uploads/2021/08/23.jpg"
-         alt="Premiazione legata alla Pro Gorizia — immagine dal sito ufficiale">
-    <figcaption></figcaption>
-  </figure>
+      <figure style="margin:0;">
+        <img src="images/storia2.jpg" alt="Archivio / momenti della Pro Gorizia"
+             style="height:178px; width:auto; display:block;">
+        <figcaption style="font-size:12px; color:#555;">Archivio societario (locale).</figcaption>
+      </figure>
 
-  <p>
-  </p>
+      <figure style="margin:0;">
+        <img src="https://progorizia.altervista.org/wp-content/uploads/2021/08/23.jpg"
+             alt="Premiazione legata alla Pro Gorizia"
+             style="height:178px; width:auto; display:block;">
+        <figcaption style="font-size:12px; color:#555;">Premiazione (remota).</figcaption>
+      </figure>
+    </div>
+
+    <!-- Colonna TESTO (destra) -->
+    <div style="flex:1; min-width:260px;">
+      <h2 style="margin-top:0;">Riassunto storico</h2>
+      <ul>
+        <li><strong>1907</strong>: nasce lo Jugoslavia (studenti sloveni) sotto l’Impero austro-ungarico.</li>
+        <li><strong>1919</strong>: scioglimento delle associazioni slave; prima formazione calcistica “latina”.</li>
+        <li><strong>9 marzo 1923</strong>: nasce l’<strong>A.S. Pro Gorizia</strong> (pres. Atto Retti Marsani, colori bianco-azzurri). Campo tra Corso Verdi e Villa Lantieri (poi Littorio/Baiamonti).</li>
+        <li><strong>Anni ’20-’30</strong>: promozioni in Seconda Div. (1925) e Prima Div. (1929); dal 1934 la categoria diventa <strong>Serie C</strong>.</li>
+        <li><strong>1941-42</strong>: sfiora la <strong>Serie B</strong>; promossa l’anno dopo ma i campionati vengono sospesi per la guerra.</li>
+        <li><strong>1946-47</strong>: disputa la <strong>Serie B</strong> (con <em>Enzo Bearzot</em>), poi retrocede; ripescaggio e nuova retrocessione: ultima B.</li>
+        <li><strong>Anni ’50</strong>: declino fino alla <strong>Quarta Serie</strong>, quindi alternanza con categorie regionali.</li>
+        <li><strong>1972</strong>: trasferimento allo <strong>Stadio della Campagnuzza</strong> (oggi <em>Enzo Bearzot</em>).</li>
+        <li><strong>1981-82</strong>: vittoria Interregionale e promozione in <strong>Serie C2</strong> (tre stagioni); passano <em>Edoardo Reja</em> e <em>Luigi Delneri</em>. <strong>1987</strong>: presidenza <em>Giancarlo Pozzo</em>.</li>
+        <li><strong>Anni ’90</strong>: lunga permanenza in Interregionale, due parentesi in Eccellenza; derby storico con la Triestina (1994-95).</li>
+        <li><strong>2003</strong>: fallimento; un gruppo di appassionati con don Sergio Ambrosi rileva e iscrive il club in <strong>Eccellenza</strong>.</li>
+        <li><strong>2005-2011</strong>: presidenze Manganelli e poi Paolo Bressan; salvezze e retrocessioni fino alla <strong>Seconda Categoria</strong>.</li>
+        <li><strong>2014-2016</strong>: doppia promozione fino alla <strong>Promozione</strong>.</li>
+        <li><strong>2017-18</strong>: nuova promozione in <strong>Eccellenza</strong>.</li>
+      </ul>
+
+      <p>
+        Oggi la Pro Gorizia prosegue il proprio percorso nei campionati regionali puntando su
+        settore giovanile, identità territoriale e valorizzazione dei talenti biancazzurri.
+      </p>
+    </div>
+  </div>
 </body>
 </html>
